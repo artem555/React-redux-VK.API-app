@@ -21,7 +21,7 @@ export function handleLogin() {
         dispatch({
           type: LOGIN_FAIL,
           error: true,
-          payload: new Error('Fail of autoriztion'),
+          payload: new Error('Fail of autorization'),
         })
       }
     }, 4)
